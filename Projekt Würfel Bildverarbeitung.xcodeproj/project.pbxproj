@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		64E364E62B99C6C8008AA879 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64E364E52B99C6C8008AA879 /* main.cpp */; };
+		64E364EE2B99D013008AA879 /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64E364EC2B99D013008AA879 /* image.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		64E364E22B99C6C8008AA879 /* Projekt Würfel Bildverarbeitung */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Projekt Würfel Bildverarbeitung"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E364E52B99C6C8008AA879 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		64E364EC2B99D013008AA879 /* image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = image.cpp; sourceTree = "<group>"; };
+		64E364ED2B99D013008AA879 /* image.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = image.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				64E364E52B99C6C8008AA879 /* main.cpp */,
+				64E364EC2B99D013008AA879 /* image.cpp */,
+				64E364ED2B99D013008AA879 /* image.hpp */,
 			);
 			path = "Projekt Würfel Bildverarbeitung";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64E364E62B99C6C8008AA879 /* main.cpp in Sources */,
+				64E364EE2B99D013008AA879 /* image.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
