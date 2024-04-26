@@ -41,7 +41,7 @@ void clip(cv::Mat& img, int threshold)
 int main()
 {
     // Öffnen der Kamera
-    VideoCapture cap(0); // 0 steht für die Indexnummer der Kamera, normalerweise die erste Kamera
+    VideoCapture cap(1); // 0 steht für die Indexnummer der Kamera, normalerweise die erste Kamera
 
     // Überprüfen, ob die Kamera erfolgreich geöffnet wurde
     if (!cap.isOpened())
